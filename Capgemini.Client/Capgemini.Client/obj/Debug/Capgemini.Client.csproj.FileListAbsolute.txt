@@ -1,0 +1,12 @@
+C:\MI\Capgemini.Client\Capgemini.Client\bin\Debug\Capgemini.Client.exe.config
+C:\MI\Capgemini.Client\Capgemini.Client\bin\Debug\Capgemini.Client.exe
+C:\MI\Capgemini.Client\Capgemini.Client\bin\Debug\Capgemini.Client.pdb
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\MainWindow.baml
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\MainWindow.g.cs
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\App.g.cs
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\Capgemini.Client_MarkupCompile.cache
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\Capgemini.Client.g.resources
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\Capgemini.Client.Properties.Resources.resources
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\Capgemini.Client.csproj.GenerateResource.Cache
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\Capgemini.Client.exe
+C:\MI\Capgemini.Client\Capgemini.Client\obj\Debug\Capgemini.Client.pdb

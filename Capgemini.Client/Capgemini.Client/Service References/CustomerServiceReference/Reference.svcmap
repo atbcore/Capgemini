@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2815fb6a-efc3-4694-8ce0-4bdb9f8591f7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4321/Capgemini" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Capgemini.xsd" MetadataType="Schema" ID="1a41c544-46d2-4cf5-9691-3c47b37d6e2e" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?xsd=xsd3" />
+    <MetadataFile FileName="Capgemini.wsdl" MetadataType="Wsdl" ID="2d34b14f-1f29-408c-9fd3-b8aff8344473" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?wsdl=wsdl0" />
+    <MetadataFile FileName="Capgemini1.xsd" MetadataType="Schema" ID="49e40440-8400-424d-890c-c57a2aef0781" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?xsd=xsd1" />
+    <MetadataFile FileName="CustomerService.wsdl" MetadataType="Wsdl" ID="e4a18b8b-f51d-4b8c-bc50-977bda89e6e0" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?wsdl" />
+    <MetadataFile FileName="Capgemini2.xsd" MetadataType="Schema" ID="ffd36790-6653-4040-8e2e-e146a8b50235" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?xsd=xsd2" />
+    <MetadataFile FileName="Capgemini.disco" MetadataType="Disco" ID="370c8fcc-dcef-465a-b44d-c321ebbd81d8" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?disco" />
+    <MetadataFile FileName="Capgemini3.xsd" MetadataType="Schema" ID="2d98012c-71de-4f9b-9b84-76d65546a222" SourceId="1" SourceUrl="http://localhost:4321/Capgemini?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Capgemini.Service.Message" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Capgemini.Service.Message" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:4321/Capgemini?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" />
+  <xs:complexType name="AddCustomerRequest">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" minOccurs="0" name="CustomerDto" nillable="true" type="q1:CustomerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AddCustomerRequest" nillable="true" type="tns:AddCustomerRequest" />
+  <xs:complexType name="AddCustomerResponse">
+    <xs:sequence>
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" minOccurs="0" name="CustomerDto" nillable="true" type="q2:CustomerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AddCustomerResponse" nillable="true" type="tns:AddCustomerResponse" />
+  <xs:complexType name="UpdateCustomerRequest">
+    <xs:sequence>
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" minOccurs="0" name="CustomerDto" nillable="true" type="q3:CustomerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UpdateCustomerRequest" nillable="true" type="tns:UpdateCustomerRequest" />
+  <xs:complexType name="UpdateCustomerResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsUpdated" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UpdateCustomerResponse" nillable="true" type="tns:UpdateCustomerResponse" />
+  <xs:complexType name="RemoveCustomerRequest">
+    <xs:sequence>
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" minOccurs="0" name="CustomerDto" nillable="true" type="q4:CustomerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RemoveCustomerRequest" nillable="true" type="tns:RemoveCustomerRequest" />
+  <xs:complexType name="RemoveCustomerResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsRemoved" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RemoveCustomerResponse" nillable="true" type="tns:RemoveCustomerResponse" />
+  <xs:complexType name="GetAllCustomersRequest">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="GetAllCustomersRequest" nillable="true" type="tns:GetAllCustomersRequest" />
+  <xs:complexType name="GetAllCustomersResponse">
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" minOccurs="0" name="Customers" nillable="true" type="q5:ArrayOfCustomerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetAllCustomersResponse" nillable="true" type="tns:GetAllCustomersResponse" />
+  <xs:complexType name="GetCustomerRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CustomerId" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetCustomerRequest" nillable="true" type="tns:GetCustomerRequest" />
+  <xs:complexType name="GetCustomerResponse">
+    <xs:sequence>
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Capgemini.Service.ContractType" minOccurs="0" name="CustomerDto" nillable="true" type="q6:CustomerDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GetCustomerResponse" nillable="true" type="tns:GetCustomerResponse" />
+</xs:schema>
